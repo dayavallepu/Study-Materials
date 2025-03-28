@@ -1,0 +1,68 @@
+
+To find the probability expected value (also known as the expected value) through a histogram, you can follow these steps:
+
+Step 1: Understand the Histogram
+- A histogram represents the distribution of a dataset by showing the frequency of data points within specified bins or intervals.
+- Each bin has a corresponding midpoint (or value) and frequency (or probability).
+
+Step 2: Calculate the Probability of Each Bin
+- Calculate the probability of each bin by dividing the frequency of the bin by the total number of data points. This gives you the probability that a data point falls within that bin.
+
+P(x_i) = Frequency of Bin i / Total Number of Data Points
+
+Step 3: Determine the Midpoint (or Value) of Each Bin
+- Identify the midpoint or representative value for each bin. This is usually the average of the bin's upper and lower boundaries.
+
+Step 4: Compute the Expected Value
+- The expected value is the sum of the products of each bin's probability and its corresponding midpoint.
+
+E(X) = Σ P(x_i) * x_i
+
+Where:
+- E(X) is the expected value.
+- P(x_i) is the probability of the i-th bin.
+- x_i is the midpoint or value of the i-th bin.
+
+Example Calculation
+Suppose you have a histogram with three bins:
+
+| Bin | Midpoint x_i | Frequency | Probability P(x_i) |
+|-----|--------------|-----------|---------------------|
+| 1   | 2            | 5         | 0.25                |
+| 2   | 4            | 10        | 0.50                |
+| 3   | 6            | 5         | 0.25                |
+
+Total number of data points: 20
+
+1. Calculate the probability for each bin:
+   - For Bin 1: P(x_1) = 5/20 = 0.25
+   - For Bin 2: P(x_2) = 10/20 = 0.50
+   - For Bin 3: P(x_3) = 5/20 = 0.25
+
+2. Calculate the expected value:
+   E(X) = (0.25 * 2) + (0.50 * 4) + (0.25 * 6) = 0.5 + 2 + 1.5 = 4
+
+So, the expected value E(X) is 4.
+
+This is how you compute the probability expected value using a histogram.
+
+
+To find the midpoint of a bin or interval in a histogram, you can use the following formula:
+
+Midpoint
+=
+Lower Boundary
++
+Upper Boundary
+2
+Midpoint= 
+2
+Lower Boundary+Upper Boundary
+​
+ 
+
+Steps:
+Identify the boundaries of the bin:
+
+The lower boundary is the smallest value in the bin.
+The upper boundary is the largest value in the bin.
